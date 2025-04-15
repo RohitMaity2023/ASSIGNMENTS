@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+    <hibernate-mapping>
+    <class name="Employee" table="employee">
+    
+    <id name="id" type="int"></id>
+    <property name="name" type="string"></property>
+    </class>
+    </hibernate-mapping>
